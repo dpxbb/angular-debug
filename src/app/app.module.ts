@@ -30,6 +30,7 @@ import { EditItemModalComponent } from './edit-item-modal/edit-item-modal.compon
     AppRoutingModule,
     BrowserAnimationsModule,
     SharedModule,
+    FormsModule
 
   ],
   providers: [],

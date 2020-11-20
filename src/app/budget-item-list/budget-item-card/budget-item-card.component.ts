@@ -13,6 +13,7 @@ export class BudgetItemCardComponent implements OnInit {
 
   // Outputs for the xButton(deleting the card) and cardClick action(updating the card)
   
+  @Output() xButtonClick: EventEmitter<any> = new EventEmitter<any>();
   @Output() cardClick: EventEmitter<any> = new EventEmitter<any>();
 
   constructor() { }
